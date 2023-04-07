@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register New User</title>
+
+ <link rel="stylesheet" href="">
+ 
+ <style >
+body
+        {
+          background-image: url("image/login2.jpeg");
+              display: inline;
+              background-size: cover;
+        }
+          #div1{
+                
+                    margin-top: 50px;
+                    margin-left: 500px;
+                    
+                    width: 310px;
+                    height: 600px;
+                    
+                   
+                    border: solid 2px;
+                 
+                   padding-left: 75px;
+                    padding-top: 10px;
+                    border-radius: 30px;
+                    background-color: rgb(145 171 195 / 27%);
+                    border: darkgrey;
+                    box-shadow: 100px;
+                    color: azure;
+                }
+               
+               
+                
+                input{
+        
+                    height: 30px; width: 230px;
+                    font-style: italic;
+                    border-radius: 6px;
+                    
+                    
+                   text-align:left;
+                   font-size: 20px;
+                }
+        
+                h1
+                {
+                   
+                    color: rgb(222, 220, 233);
+                    
+                    font-style: oblique;
+
+                }
+        button
+        {
+        
+             margin-top:10px;
+            height: 30px; width: 230px;
+                    font-style: italic;
+                    border-radius: 6px;
+              padding-top: 1px;
+              font-size: 20px;
+              background-color: rgb(217, 211, 239);
+        }
+        
+        a{
+
+            font-size: 22px;
+            color: aliceblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        select
+        {
+            height: 30px; width: 235px;
+                    font-style: italic;
+                    border-radius: 6px;
+                    
+                  
+                   text-align:left;
+                   font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div  id="div1">
+
+
+        <form action="signup_handler" method="post">
+      
+            <h1 >REGISTER USER</h1>
+           
+             <hr>     
+                <input type="text" placeholder="Enter User ID" name="user_name">  
+                  <br>    <br>                                     
+                <input type="password" placeholder="Enter password" name="pass">  
+                <br>  <br>
+                                
+            <input type="password" placeholder="Confirm password" name="pass_confirm"> 
+            <br>  <br>
+            <input type="text" placeholder="Enter Name" name="name" > 
+            <br>  <br>
+            
+                <input type="date" placeholder="Select DOB" name="dob"  >
+            
+          
+            <br>  <br>
+            <select name="city" id="" name="city">
+                <option value="" disabled selected>select city</option>
+                <option value="pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Bengular">Bengluar</option>
+                <option value="Hydrabad">Hydrabad</option>
+                
+            </select> 
+            <br>  <br>
+          <select name="course" id="">
+            <option value="" disabled selected>select course</option>
+            <option value="BCS">BCS</option>
+            <option value="BCA">BCA</option>
+            <option value="MCS">MCS</option>
+            <option value="MCA">MCA</option>
+           
+          </select>
+          <br>  <br>
+        
+         <button type="submit" value="submit"> Submit
+            <br>  <br>  
+         <button type="reset" value="reset" > Clear
+       
+            <br>  <br> 
+            <a href="login.html">Go to back</a>&nbsp;
+
+        </form>
+          
+       </div>
+</body>
+</html>

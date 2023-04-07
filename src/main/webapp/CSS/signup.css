@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+#div{
+
+    margin-top: 150px;
+    margin-left: 500px;
+    height: fit-content;
+    width: fit-content;
+
+    background-color: hwb(110 81% 2% / 0.861);
+   
+    border: solid 2px;
+padding-inline: 20px;
+    border-radius: 20px;
+}
+
+#table1{
+
+   
+   
+   font-size: 20px;
+color: rgb(20, 70, 129);
+width: 450px;;
+background-color: rgb(43, 209, 121);
+
+
+}
+
+h1,h2{
+
+    color: blueviolet;
+    
+}
+
+input{
+
+     width: 150px;
+     height: 20px;
+     margin: 3px;
+}
+
+button
+{
+    margin: 10px 50px 30px 50px;
+height: 30px;
+width: 100px;
+background-color: rgb(182, 171, 192);
+font-size: large;
+color: rgb(10, 11, 10);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+border-radius: 2px;
+}
+

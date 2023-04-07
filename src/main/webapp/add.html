@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ADD DATA </title>
+
+<style type="text/css">
+
+body
+{
+  background-image: url("image/add1.jpg");
+      display: inline;
+      background-size: cover;
+}
+
+        #div1{
+        
+            margin-top: 50px;
+            margin-left: 500px;
+            height: fit-content;
+            width: 300px;
+             height: 720px;
+            
+           
+            border: solid 2px;
+         
+           padding-left: 75px;
+            padding-top: 10px;
+            border-radius: 30px;
+            background-color: rgb(48 66 83 / 12%);
+            border: darkgrey;
+            box-shadow: 50px;
+            color: azure;
+        }
+       
+        label{
+
+
+             
+            font-size: 25px;
+            font-style: italic;
+            color: rgb(11, 11, 11);
+          font-family: 'Times New Roman', Times, serif;
+          
+        }
+        
+        input{
+            margin-bottom:10px;
+            height: 25px; width: 230px;
+            font-style: italic;
+            border-radius: 6px;
+             font-size: 20px;
+            
+        }
+
+        h1
+        {
+           
+            color: rgb(28, 26, 27);
+            margin-left: 50px;
+            font-style: oblique;
+        }
+      a{
+            margin-left: 50px;
+            font-size: 27px;
+            color: aliceblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+</style>
+</head>
+<body>
+ 
+  <div id=div1>
+  <centre></centre>
+  <form action="emp_controler_handler" method="get">
+          
+         
+          <h1> ADD DATA</h1> 
+          <hr>
+          
+            <label for="">ID</label> <br>
+            <input type="text" name="id" placeholder="Enter ID"><br>
+            
+            <label for="">Name</label> <br>
+            <input type="text" name="name" placeholder="Enter Name"><br>
+            
+            <label for="">Email</label> <br>
+            <input type="email" name="email" placeholder="Enter Email"><br>
+            
+             <label for="">Phone</label> <br>
+            <input type="phone" name="phone" placeholder="Enter Phone"><br>
+            
+             <label for="">Date of Joining</label> <br>
+            <input type="date" name="doj"><br>
+            
+             <label for="">Birth date</label> <br>
+            <input type="date" name="dob"><br>
+            
+            <label for="">Aadhaar</label> <br>
+            <input type="text" name="adhar" placeholder="Enter Adhar Details"><br><br>
+             
+            <input type="submit"  value="SAVE DATA" >  
+             <br>
+             
+             <br>
+             </form>
+             
+             <form action="all_emp_controller" method="get">
+             
+             <input type="submit"  value="VIEW DATA" >
+              </form>
+              
+             
+              <a href="homepage.html">Go to back</a>
+         
+      </div>      
+</body>
+</html>
